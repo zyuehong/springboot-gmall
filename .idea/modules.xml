@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/gmall-api/gmall-api.iml" filepath="$PROJECT_DIR$/gmall-api/gmall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-common-util/gmall-common-util.iml" filepath="$PROJECT_DIR$/gmall-common-util/gmall-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-eureka/gmall-eureka.iml" filepath="$PROJECT_DIR$/gmall-eureka/gmall-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-eureka-client/gmall-eureka-client.iml" filepath="$PROJECT_DIR$/gmall-eureka-client/gmall-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-eureka-zuul/gmall-eureka-zuul.iml" filepath="$PROJECT_DIR$/gmall-eureka-zuul/gmall-eureka-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-parent/gmall-parent.iml" filepath="$PROJECT_DIR$/gmall-parent/gmall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-user/gmall-user.iml" filepath="$PROJECT_DIR$/gmall-user/gmall-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot-gmall.iml" filepath="$PROJECT_DIR$/.idea/springboot-gmall.iml" />
     </modules>
   </component>

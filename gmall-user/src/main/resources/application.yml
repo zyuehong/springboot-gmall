@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: gmall-eureka-user   #配置应用名字（ServiceId）
+
+eureka:
+  instance:
+    hostname: localhost       #配置主机地址
+    instance-id: eureka-user-8090   # 服务名称,实例id (InstanceId)
+    prefer-ip-address: true  #访问路劲可以显示ip地址
+  client:
+    service-url:    #设置与Eureka 服务端交互的地址
+      defaultZone: http://localhost:7001/eureka/
+server:
+  port: 8090

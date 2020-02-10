@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gmall-eureka-zuul" />
+        <module name="gmall-eureka-client" />
+        <module name="gmall-common-util" />
+        <module name="gmall-eureka" />
+        <module name="gmall-user" />
+        <module name="gmall-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gmal-api" target="1.5" />
+      <module name="gmall-api" target="1.8" />
+      <module name="gmall-common-util" target="1.8" />
+      <module name="gmall-eureka" target="1.8" />
+      <module name="gmall-eureka-client" target="1.8" />
+      <module name="gmall-eureka-zuul" target="1.8" />
+      <module name="gmall-parent" target="1.8" />
+      <module name="gmall-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gmall-api" options="-parameters" />
+      <module name="gmall-common-util" options="-parameters" />
+      <module name="gmall-eureka" options="-parameters" />
+      <module name="gmall-eureka-client" options="-parameters" />
+      <module name="gmall-eureka-zuul" options="-parameters" />
+      <module name="gmall-user" options="-parameters" />
+    </option>
+  </component>
+</project>

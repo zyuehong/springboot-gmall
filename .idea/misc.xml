@@ -3,4 +3,20 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/gmall-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-user/pom.xml" />
+        <option value="$PROJECT_DIR$/gmal-lapi/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-api/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-eureka02/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-eureka-02/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-eureka-zuul/pom.xml" />
+      </list>
+    </option>
+  </component>
 </project>
